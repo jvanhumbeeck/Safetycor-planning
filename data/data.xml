@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+	<dag datum="05/09/2018">
+		<plan>
+			<naam>Sint-Niklaas</naam>
+			<adres>Parklaan 61</adres>
+			<te_plaatsen>
+				<item>
+					<hoeveelheid>2</hoeveelheid>
+					<naam>palen 400mm beton dik</naam>
+				</item>
+
+				<item>
+					<hoeveelheid>2</hoeveelheid>
+					<naam>palen 400mm beton</naam>
+				</item>
+
+				<item>
+					<hoeveelheid>1</hoeveelheid>
+					<naam>paal 600mm hout</naam>
+				</item>
+
+				<item>
+					<hoeveelheid>600</hoeveelheid>
+					<naam>m kabel</naam>
+				</item>
+			</te_plaatsen>
+			<img_naam>images/030920181.png</img_naam>
+		</plan>
+	</dag>
+
+</data>
