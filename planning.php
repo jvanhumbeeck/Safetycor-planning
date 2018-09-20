@@ -27,6 +27,11 @@ include "api/data.php";
 
 			$planning = new dagPlanning(date("d/m/Y"));
 
+			if(isset($planning->plan)) {
+				echo "<h2 class='title'>Niks op de agenda.</h2>";
+				exit();
+			}
+
 			foreach($planning->getPlans() as $plan) {
 			?>
 				
