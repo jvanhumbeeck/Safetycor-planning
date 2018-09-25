@@ -27,6 +27,11 @@ include "api/data.php";
 
 			$planning = new dagPlanning(date("d/m/Y"));
 
+			if($planning->getPlans() == null) {
+				echo "<h3 class='title'>Er staat niks op de planning.</h3>";
+				exit();
+			}
+
 			foreach($planning->getPlans() as $plan) {
 			?>
 				
@@ -82,7 +87,6 @@ include "api/data.php";
 								</ul>
 								<span class="btn-holder"><input type="file" name="image"multiple></span>
 								<span class="btn-holder"><input type="submit" value="Verzenden"></span>
-								<p>Dit in form zetten, dan naar mail sturen wat nog gedaan moet worden.</p>
 							</div>
 						</div>
 					</div>

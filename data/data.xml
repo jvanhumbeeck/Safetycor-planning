@@ -1,33 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-
-	<dag datum="05/09/2018">
-		<plan>
-			<naam>Sint-Niklaas</naam>
-			<adres>Parklaan 61</adres>
-			<te_plaatsen>
-				<item>
-					<hoeveelheid>2</hoeveelheid>
-					<naam>palen 400mm beton dik</naam>
-				</item>
-
-				<item>
-					<hoeveelheid>2</hoeveelheid>
-					<naam>palen 400mm beton</naam>
-				</item>
-
-				<item>
-					<hoeveelheid>1</hoeveelheid>
-					<naam>paal 600mm hout</naam>
-				</item>
-
-				<item>
-					<hoeveelheid>600</hoeveelheid>
-					<naam>m kabel</naam>
-				</item>
-			</te_plaatsen>
-			<img_naam>images/030920181.png</img_naam>
-		</plan>
-	</dag>
-
+  <dag datum="09/09/2018">
+    <plan>
+      <naam>Sint-Niklaas</naam>
+      <adres>Parklaan 61</adres>
+      <te_plaatsen>
+        <item>
+          <hoeveelheid>2</hoeveelheid>
+          <naam>palen 400mm beton dik</naam>
+        </item>
+        <item>
+          <hoeveelheid>2</hoeveelheid>
+          <naam>palen 400mm beton</naam>
+        </item>
+        <item>
+          <hoeveelheid>1</hoeveelheid>
+          <naam>paal 600mm hout</naam>
+        </item>
+        <item>
+          <hoeveelheid>600</hoeveelheid>
+          <naam>m kabel</naam>
+        </item>
+      </te_plaatsen>
+      <img_naam>images/030920181.png</img_naam>
+    </plan>
+    <plan>
+      <naam>Test</naam>
+      <adres>test</adres>
+      <te_plaatsen>
+        <item>
+          <hoeveelheid>1</hoeveelheid>
+          <naam>paal 400mm</naam>
+        </item>
+        <item>
+          <hoeveelheid>5</hoeveelheid>
+          <naam>palen 200mm</naam>
+        </item>
+      </te_plaatsen>
+      <img_naam>images/download.jpg</img_naam>
+    </plan>
+    <plan>
+      <naam>Example</naam>
+      <adres>Example straat</adres>
+      <te_plaatsen>
+        <item>
+          <hoeveelheid>1</hoeveelheid>
+          <naam>paal 400mm</naam>
+        </item>
+        <item>
+          <hoeveelheid>5</hoeveelheid>
+          <naam>palen 200mm</naam>
+        </item>
+        <item>
+          <hoeveelheid>400</hoeveelheid>
+          <naam>m kabel</naam>
+        </item>
+        <item>
+          <hoeveelheid>2</hoeveelheid>
+          <naam>palen 400 dik</naam>
+        </item>
+      </te_plaatsen>
+      <img_naam>images/hubsan_huh501sbk_h501s_x4_fpv_quadcopter_1454437242000_1216666.jpg</img_naam>
+    </plan>
+  </dag>
 </data>

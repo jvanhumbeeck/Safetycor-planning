@@ -138,3 +138,12 @@ button, input[type="submit"] {
 .special-list {
 	list-style: square;
 }
+
+input[type="number"] {
+	width: 50px;
+	margin: 0 .5rem 0 0;
+}
+
+li {
+	padding: .1rem 0;
+}
