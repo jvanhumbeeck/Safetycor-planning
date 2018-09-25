@@ -27,8 +27,13 @@ include "api/data.php";
 
 			$planning = new dagPlanning(date("d/m/Y"));
 
+<<<<<<< HEAD
 			if($planning->getPlans() == null) {
 				echo "<h3 class='title'>Er staat niks op de planning.</h3>";
+=======
+			if(isset($planning->plan)) {
+				echo "<h2 class='title'>Niks op de agenda.</h2>";
+>>>>>>> c040c76335065440fca3f2d1cc81279b7435af90
 				exit();
 			}
 
